@@ -1,0 +1,233 @@
+{
+    "users": [
+        {
+            "id": "M-001",
+            "nama": "Nollie Padbery",
+            "alamat": "194 Summer Ridge Hill",
+            "email": "npadbery0@ca.gov",
+            "gender": "Male"
+        },
+        {
+            "id": "M-002",
+            "nama": "Nessie Drewell",
+            "alamat": "31924 Darwin Place",
+            "email": "ndrewell1@bbc.co.uk",
+            "gender": "Female"
+        },
+        {
+            "id": "M-003",
+            "nama": "Kent Simonsen",
+            "alamat": "2 Lakewood Lane",
+            "email": "ksimonsen2@dailymotion.com",
+            "gender": "Male"
+        },
+        {
+            "id": "M-004",
+            "nama": "Graehme Foggo",
+            "alamat": "558 Milwaukee Junction",
+            "email": "gfoggo3@apple.com",
+            "gender": "Male"
+        },
+        {
+            "id": "M-005",
+            "nama": "Clayborne Anan",
+            "alamat": "9801 Dexter Alley",
+            "email": "canan4@blogger.com",
+            "gender": "Male"
+        },
+        {
+            "id": "M-006",
+            "nama": "Javier Woolbrook",
+            "alamat": "4911 Boyd Park",
+            "email": "jwoolbrook5@xinhuanet.com",
+            "gender": "Male"
+        },
+        {
+            "id": "M-007",
+            "nama": "Gayleen Alliker",
+            "alamat": "629 Bonner Trail",
+            "email": "galliker6@youtu.be",
+            "gender": "Female"
+        },
+        {
+            "id": "M-008",
+            "nama": "Rachelle Cheke",
+            "alamat": "7351 Dwight Way",
+            "email": "rcheke7@photobucket.com",
+            "gender": "Bigender"
+        },
+        {
+            "id": "M-009",
+            "nama": "Joye Dohmann",
+            "alamat": "0 Thackeray Way",
+            "email": "jdohmann8@aol.com",
+            "gender": "Female"
+        },
+        {
+            "id": "M-010",
+            "nama": "Aridatha Goracci",
+            "alamat": "88154 Northwestern Park",
+            "email": "agoracci9@plala.or.jp",
+            "gender": "Female"
+        },
+        {
+            "id": "M-011",
+            "nama": "Cece Albutt",
+            "alamat": "95557 Bluejay Park",
+            "email": "calbutta@shop-pro.jp",
+            "gender": "Male"
+        },
+        {
+            "id": "M-012",
+            "nama": "Hannie Petrovsky",
+            "alamat": "008 Karstens Terrace",
+            "email": "hpetrovskyb@cloudflare.com",
+            "gender": "Female"
+        },
+        {
+            "id": "M-013",
+            "nama": "Thayne Elie",
+            "alamat": "5 Almo Alley",
+            "email": "teliec@xinhuanet.com",
+            "gender": "Male"
+        },
+        {
+            "id": "M-014",
+            "nama": "Karil Colqueran",
+            "alamat": "38 Homewood Park",
+            "email": "kcolquerand@cnbc.com",
+            "gender": "Female"
+        },
+        {
+            "id": "M-015",
+            "nama": "Jannelle Sirett",
+            "alamat": "48362 Anzinger Drive",
+            "email": "jsirette@scientificamerican.com",
+            "gender": "Genderqueer"
+        },
+        {
+            "id": "M-016",
+            "nama": "Robert Beminster",
+            "alamat": "7 Drewry Point",
+            "email": "rbeminsterf@jigsy.com",
+            "gender": "Polygender"
+        },
+        {
+            "id": "M-017",
+            "nama": "Veda Lightollers",
+            "alamat": "08504 Havey Point",
+            "email": "vlightollersg@nymag.com",
+            "gender": "Female"
+        },
+        {
+            "id": "M-018",
+            "nama": "Yancey Tuson",
+            "alamat": "3 Delaware Avenue",
+            "email": "ytusonh@economist.com",
+            "gender": "Male"
+        },
+        {
+            "id": "M-019",
+            "nama": "Bill Rikkard",
+            "alamat": "60695 Esker Lane",
+            "email": "brikkardi@discuz.net",
+            "gender": "Male"
+        },
+        {
+            "id": "M-020",
+            "nama": "Petey Farre",
+            "alamat": "040 Northview Street",
+            "email": "pfarrej@bandcamp.com",
+            "gender": "Male"
+        }
+    ],
+    "products": [
+        {
+            "id": "P-001",
+            "model": "Suburban 2500",
+            "merk": "Chevrolet",
+            "jumlah": 1,
+            "harga": "100000000"
+        },
+        {
+            "id": "P-002",
+            "model": "Camry",
+            "merk": "Toyota",
+            "jumlah": 2,
+            "harga": "100000000"
+        },
+        {
+            "id": "P-003",
+            "model": "A6",
+            "merk": "Audi",
+            "jumlah": 3,
+            "harga": "10000000000"
+        },
+        {
+            "id": "P-004",
+            "model": "Maxima",
+            "merk": "Nissan",
+            "jumlah": 4,
+            "harga": "10000000000"
+        },
+        {
+            "id": "P-005",
+            "model": "E350",
+            "merk": "Ford",
+            "jumlah": 5,
+            "harga": "100000000"
+        },
+        {
+            "id": "P-006",
+            "model": "C-Class",
+            "merk": "Mercedes-Benz",
+            "jumlah": 6,
+            "harga": "200000000"
+        },
+        {
+            "id": "P-007",
+            "model": "Legacy",
+            "merk": "Subaru",
+            "jumlah": 7,
+            "harga": ""
+        },
+        {
+            "id": "P-008",
+            "model": "E-Class",
+            "merk": "Mercedes-Benz",
+            "jumlah": 8,
+            "harga": "200000000"
+        },
+        {
+            "id": "P-009",
+            "model": "Flex",
+            "merk": "Ford",
+            "jumlah": 9,
+            "harga": ""
+        },
+        {
+            "id": "P-010",
+            "model": "Montero Sport",
+            "merk": "Mitsubishi",
+            "jumlah": 10,
+            "harga": "50000000"
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "no_faktur":"2024-02-001",
+            "tanggal": "2024-02-01",
+            "diskon": 0,
+            "userId": "M-006"
+        }
+    ],
+    "detail_transaction": [
+        {
+            "id": 1,
+            "transactionId":1,
+            "productId": "P-004",
+            "jumlah": 1
+        }
+    ]
+}

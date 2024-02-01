@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Transaksi</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                
+
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <form action="" method="post">
+                <h2>Transaksi</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3 row">
+                            <label for="no_faktur" class="col-sm-2 col-form-label">No Faktur </label>
+                            <div class="col-sm-10">
+                                <input type="text" readonly class="form-control-plaintext" id="no_faktur"
+                                    value="2024-02-001">
+                            </div>
+
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
+                            <div class="col-sm-10">
+                                <input type="text" readonly class="form-control-plaintext" id="tanggal"
+                                    value="01/02/2024">
+                            </div>
+                            </div>
+                        <div class="mb-3 row">
+                            <label for="kode_member" class="col-sm-2 col-form-label">Kode Member</label>
+                            <div class="col-sm-10">
+                                <input autofocus style="width:auto" type="text" class="form-control" id="kode_member" >
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                            <div class="col-sm-10">
+                                <input style="width:auto" disabled type="text" class="form-control" id="nama">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
+                            <div class="col-sm-10">
+                                <input style="width:auto" disabled type="text" class="form-control" id="alamat">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col md-2">
+                                <label for="kode_produk">Kode Produk</label>
+                                <input type="text" class="form-control" style="width:auto" id="kode_produk">
+                            </div>
+                            <div class="col md-2">
+                                <label for="model">Model</label>
+                                <input type="text" class="form-control" disabled style="width:auto" id="model">
+                            </div>
+                            <div class="col md-2">
+                                <label for="merk">Merk</label>
+                                <input type="text" class="form-control" disabled style="width:auto" id="merk">
+                            </div>
+
+                            <div class="col md-2">
+                                <label for="jumlah">Jumlah</label>
+                                <input type="number" class="form-control" style="width:auto" id="jumlah">
+                            </div>
+                            <div class="col md-2">
+                                <label for="harga">Harga</label>
+                                <input type="number" class="form-control" disabled style="width:auto" id="harga">
+                            </div>
+                            <div class="col md-2">
+                                <button type="button" id="btns" class="btn btn-primary mt-4">Tambah</button>
+                            </div>
+                            
+
+                        <table class="table mt-3">
+                            <thead>
+                              <tr>
+                                <th scope="col">Kode Produk</th>
+                                <th scope="col">Model</th>
+                                <th scope="col">Merk</th>
+                                <th scope="col">Jumlah</th>
+                                <th scope="col">Total</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                
+                    
+                    <div class="mb-3 row">
+                        <label for="subtotal" class="col-sm-2 col-form-label">Subtotal</label>
+                        <div class="col-sm-10">
+                            <input style="width:auto" disabled type="text" class="form-control" id="subtotal">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="diskon" class="col-sm-2 col-form-label">Diskon</label>
+                        <div class="col-sm-10">
+                            <input style="width:auto" type="text" class="form-control" id="diskon">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="total_harga" class="col-sm-2 col-form-label">Total Harga</label>
+                        <div class="col-sm-10">
+                            <input style="width:auto" disabled type="text" class="form-control" id="total_harga">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="Bayar" class="col-sm-2 col-form-label">Bayar</label>
+                        <div class="col-sm-10">
+                            <input style="width:auto" type="text" class="form-control" id="Bayar">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="Kembali" class="col-sm-2 col-form-label">Kembali</label>
+                        <div class="col-sm-10">
+                            <input style="width:auto" disabled type="text" class="form-control" id="Kembali">
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            </form>
+        </div>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="transaksi.js"></script>
+</body>
+<script>
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>
+
+</html>
